@@ -1,0 +1,21 @@
+#nav-bar {
+    display: flex
+}
+
+#header-img{
+    background-size: 50px 50px;
+    background-color: blue
+}
+
+#video {
+    width: 90vw;
+}
+
+@media (max-width: 720px) {
+    #video {
+        width: 70vw;
+        height: 50vw;
+        display: block;
+    }
+}
+
